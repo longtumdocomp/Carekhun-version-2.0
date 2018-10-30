@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/activity_icon"
+            android:title="@string/menu_activity" />
+        <item
+            android:id="@+id/nav_qr_code"
+            android:icon="@drawable/qrcodeicon"
+            android:title="@string/menu_qr_code" />
+        <item
+            android:id="@+id/nav_edit_data"
+            android:icon="@drawable/sync_rate_icon"
+            android:title="@string/menu_edit_data" />
+        <item
+            android:id="@+id/nav_send_email"
+            android:icon="@drawable/ic_drafts_black_24dp"
+            android:title="@string/menu_send_email" />
+        <item
+            android:id="@+id/nav_wearable"
+            android:icon="@drawable/wearable_icon"
+            android:title="@string/menu_wearable" />
+
+        <item
+            android:id="@+id/nav_repair"
+            android:icon="@drawable/manageicon"
+            android:title="@string/menu_repair" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="@string/menu_settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+</menu>
